@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+  }
+
+
+.site-title {
+  text-align: center;
+  
+ 
+}
+
+.site-desc {
+  text-align: center;
+  margin-top: 1em;
+
+ 
+}
+
+.logsign {
+  text-align: center;
+}
+
+.companyCard {
+  border: 2px solid black;
+}
+
+.jobCard {
+  border: 2px solid black;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logoutBtn {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
